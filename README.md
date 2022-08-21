@@ -5,19 +5,19 @@
 * ### push 
    This method pushes a new item to the end of an array.
    
-     #### Examples:
+     #### Example:
      * console.log([1,2].push(3)) ==> [1,2,3]
      
 * ### reverse 
    This method will reverse the array elements.
    
-     #### Examples:
+     #### Example:
      * console.log([1,2].reverse()) ==> [2,1]
 
 * ### shift 
    This method removes the first item in an array.
    
-     #### Examples:
+     #### Example:
      * console.log([1,2,3].shift()) ==> [2,3]
 
 * ### splice
@@ -31,13 +31,13 @@
 * ### unshift
   This method adds n number of elements at the beginning of the array.
   
-  #### Examples:
+  #### Example:
   * console.log([3].unshift(1,2)) ==> [1,2,3]
   
 * ### pop
   This method removes and returns the last element of an array.
   
-  #### Examples:
+  #### Example:
   * console.log([1,2,3,3].pop()) ==> [1,2,3] 
   
   
@@ -54,26 +54,26 @@
 * ### flat 
   This method returns the array having sub-array elements merged to the specified depth.
 
-  #### Examples:
+  #### Example:
   * console.log([[1, 2], [3, 4], 5].flat())  ==> [1,2,3,4,5] 
 
 
 * ### indexOf
   This method returns the first matching index of specified item in the array.
 
-  #### Examples:
+  #### Example:
   * console.log([1,2,3].indexOf(3)) ==> 2 
 
 * ### lastIndexOf
   This method returns the last matching index of specified item in the array.
   
-  #### Examples:
+  #### Example:
   * console.log([1,2,3,3].indexOf(3)) ==> 3 
   
 * ### includes
   This method checks if array contains the specified element and returns boolean vaule.
   
-  #### Examples:
+  #### Example:
   * console.log([1,2,3,3].includes(3)) ==> true 
 
 
@@ -87,26 +87,26 @@
 * ### find
   This method returns the first element that statsfies the specified condition.
   
-  #### Examples:
+  #### Example:
   * console.log([1,2,3,3].find(e => e > 1)) ==> 2
 
 
 * ### findIndex
   This method returns the index of the first element in the array that satsfies the condition. Otherwise, -1.
 
-  #### Examples:
+  #### Example:
   * console.log([1,2,3,3].find(e => e > 1)) ==> 1 // index of 2
 
 * ### filter
   This method creats a new array containing the elements that satsfies the test condition.
   
-  #### Examples:
+  #### Example:
   * console.log([1,2,3,3].filter(e => e > 1)) ==> [2,3,3] 
 
 * ### forEach
   It iterates once for each element of an array.
 
-  #### Examples:
+  #### Example:
   * let result = []
     [1,2,3,3].forEach(e => result.push(e+1))
     console.log(result) ==> [2,3,4,4]
@@ -114,21 +114,21 @@
 * ### map
   This method calls the specified function for every element and returns a new array.
   
-  #### Examples:
+  #### Example:
   * console.log([1,2,3,3].map(e => e - 1)) ==> [0,1,2,2] 
 
 
 * ### reduce
   This method executes a provided function for each value and reduces the array to a single value.
 
-  #### Examples:
+  #### Example:
   * console.log([1,2,3,3].reduce((acc,curr) => acc + curr)) ==> 9
 
 
 * ### slice
   This method creats a new array containing the elements of part of the given array.
 
-  #### Examples:
+  #### Example:
   * console.log([1,2,3,3].slice(0,2) ==> [1,2,3] 
 
 * ### some
